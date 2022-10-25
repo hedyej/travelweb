@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+        <section class="search searchSectionHeight position-relative">       
+            <img src="assets/Hero.png" class="h-100 w-100 imgCover position-absolute z-index-0">
+            <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center position-absolute z-index-1">
+                <h1 class="text-white mb-4">高雄旅遊資訊</h1>
+                <select class="w-25 area form-select" >
+                    <option value="" selected disabled hidden>請選擇</option>
+                </select>
+            </div>
+        </section>
+        <section class="resultSection container my-4">
+            <div class="resultGrid row row-cols-1 row-cols-md-3 g-4">
+                <!-- 理想卡片排版
+                    <div class="card-deck">
+                        <div class="card p-0">
+                            <img class="imgCover imgHeight card-img-top position-relative " src="https://picsum.photos/200/300" alt="Card image cap">
+                            <div class="title d-flex justify-content-between align-items-end px-3 imgHeight position-absolute z-index-1">
+                                <h4>h4</h4>
+                                <p style="line-height:28px;" class="mb-2">p</p>
+                            </div>
+                            <div class="card-body">
+                                <p><img class="icSize" src="assets/icons_clock.png"> test</p>
+                                <p><img class="icSize" src="assets/icons_pin.png" > test</p>
+                                <div class="d-flex justify-content-between">
+                                    <p><img class="icSize" src="assets/icons_phone.png" > test</p>
+                                    <p style="margin-bottom:0px"><img class="icSize" src="assets/icons_tag.png"> 免費參觀</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                -->
+            </div>
+         </section>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.imgCover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imgHeight {
+  height: 200px;
+  width: 100%;
+}
+
+.searchSectionHeight {
+  height: 75vh;
+}
+
+.icSize {
+  height: 14px;
+  width: 14px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=style.css.map */
